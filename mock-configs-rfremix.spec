@@ -1,12 +1,12 @@
 Summary:        Mock config files for the Russian Fedora Remix
 Name:           mock-configs-rfremix
-Version:        1.1.5
+Version:        1.2.0
 Release:        1.R
 
 Group:          Development/Tools
 License:        BSD
 URL:            http://russianfedora.ru
-Source0:        http://download.rfremix.ru/storage/%{name}/%{name}-%{version}.tar.bz2
+Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
@@ -41,6 +41,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Sep 19 2011 Arkady L. Shane <ashejn@russianfedora.ru> - 1.2.0-1.R
+- added RFRemix 17 
+- added RERemix 6
+- drop old files
+- many fixes
+
 * Mon Sep 19 2011 Arkady L. Shane <ashejn@russianfedora.ru> - 1.1.5-1.R
 - added configs for RFRemix 16 (devel, will fix before release)
 
