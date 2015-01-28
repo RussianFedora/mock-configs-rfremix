@@ -1,13 +1,12 @@
 Summary:        Mock config files for the Russian Fedora Remix
 Name:           mock-configs-rfremix
 Version:        1.4.0
-Release:        1.R
+Release:        2%{?dist}
 
 Group:          Development/Tools
 License:        BSD
 URL:            http://russianfedora.ru
 Source0:        %{name}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
 Requires:       mock
@@ -41,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jan 28 2015 Arkady L. Shane <ashejn@russianfedora.ru> - 1.4.0-2.R
+- added dist tag
+
 * Thu Nov  7 2013 Arkady L. Shane <ashejn@russianfedora.ru> - 1.4.0-1.R
 - added RFRemix 20 and 21
 
