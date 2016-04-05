@@ -1,6 +1,6 @@
 Summary:        Mock config files for the Russian Fedora Remix
 Name:           mock-configs-rfremix
-Version:        1.5.0
+Version:        1.6.0
 Release:        1%{?dist}
 
 Group:          Development/Tools
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Apr  5 2016 Arkady L. Shane <ashejn@russianfedora.ru> - 1.6.0-1.R
+- added configs for RFRemix 24
+
 * Tue Oct 27 2015 Arkady L. Shane <ashejn@russianfedora.ru> - 1.5.0-1.R
 - added configs for RFRemix 23
 
