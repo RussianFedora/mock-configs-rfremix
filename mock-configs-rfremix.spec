@@ -1,11 +1,11 @@
 Summary:        Mock config files for the Russian Fedora Remix
 Name:           mock-configs-rfremix
-Version:        1.6.1
+Version:        1.7.0
 Release:        1%{?dist}
 
 Group:          Development/Tools
 License:        BSD
-URL:            http://russianfedora.ru
+URL:            http://russianfedora.pro
 Source0:        %{name}-%{version}.tar.bz2
 
 BuildArch:      noarch
@@ -40,6 +40,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Oct  8 2016 Arkady L. Shane <ashejn@russianfedora.pro> - 1.7.0-1
+- added configs for RFRemix 25
+- use dnf by default
+
 * Tue Jun 28 2016 Arkady L. Shane <ashejn@russianfedora.ru> - 1.6.1-1
 - update repos for new RPM Fusion policy
 
