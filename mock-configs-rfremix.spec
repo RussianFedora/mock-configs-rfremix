@@ -40,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Mon Jan  8 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 1.7.2-1
+* Mon Jan  9 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 1.7.2-1
 - exclude fedora-release everywhere
 
 * Mon Dec 26 2016 Arkady L. Shane <ashejn@russianfedora.pro> - 1.7.1-1
