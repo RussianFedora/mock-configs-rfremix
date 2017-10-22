@@ -1,6 +1,6 @@
 Summary:        Mock config files for the Russian Fedora Remix
 Name:           mock-configs-rfremix
-Version:        1.7.3
+Version:        1.7.4
 Release:        1%{?dist}
 
 Group:          Development/Tools
@@ -40,6 +40,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Oct 22 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 1.7.4-1
+- fix epel path for RERemix 7
+- added configs for RFRemix 27 and 28
+
 * Mon Jan  9 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 1.7.3-1
 - fix chroot name
 
